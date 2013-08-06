@@ -5,7 +5,9 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+group :development do
+  gem 'sqlite3', '1.3.7'
+end
 
 
 # Gems used only for assets and not required
@@ -21,8 +23,6 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'bootstrap-sass', '2.3.2.0'
-gem "koala", "~> 1.7.0rc1"
 
 group :production do
   gem 'pg', '0.15.1'
