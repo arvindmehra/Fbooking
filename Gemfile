@@ -9,6 +9,8 @@ group :development do
   gem 'sqlite3', '1.3.7'
 end
 
+gem 'newrelic_rpm'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -28,6 +30,8 @@ group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
+
+gem "koala", "~> 1.7.0rc1"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
