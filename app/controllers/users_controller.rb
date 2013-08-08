@@ -53,6 +53,9 @@ class UsersController < ApplicationController
     end
   end
 
+  def feedbacks
+  end
+
 
   # PUT /users/1
   # PUT /users/1.json
