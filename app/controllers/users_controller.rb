@@ -56,10 +56,7 @@ class UsersController < ApplicationController
   def feedbacks
   end
 
-  def post_feedback
-    @graph = Koala::Facebook::API.new(CAACEdEose0cBAJ4I2mEtSRrhSkhQeANiD1KvVTjYVjBIYJgAb6I1acCxCUZCLx2VQiXMAHYO0Rxt2Ha8gjDEZAkPTC8EMiGZBGmJxRlEeOSqjQsJZCLiBlvsEpxSWBTe32ooMZCgnx838QM40UBORgCpirgeWH4EZD)
-    @graph.put_connections("555395424496570", "feed", :message => "I am writing on my wall!")
-  end
+
 
 
   # PUT /users/1
